@@ -1,5 +1,13 @@
+
+[English](#hiv-tropism)
+
+[Português](#tropismo-do-hiv)
+
+---
+
+
 # HIV Tropism
-Predicts HIV-1 subtype C tropism using emsemble learning with genotypic algorithms.
+Predicts HIV-1 subtype C tropism using ensemble learning with genotypic algorithms.
 Made using R version 3.6.0.
 
 # Required packages 
