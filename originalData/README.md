@@ -14,7 +14,7 @@ Subtype C consensus used for V3-loop (extracted from Los Alamos): CTRPNNNTRKSIRI
 For genotypic tests, all 'X4' results were coded as 'NR5'.
 
 Variables:
-- **id**: Case id extracted from Los Alamos database.
+- **id**: Case id extracted from the Los Alamos database.
 - **dna**: Virus V3-loop DNA strand. 
 - **aa**: Virus V3-loop aminoacid strand (NCBI codon translation) aligned with consensus. Gaps are represented by 'X'.
 - **aa-consenso**: Virus V3-loop aminoacid strand (NCBI codon translation) aligned with consensus. Gaps were replaced by consensus aminoacid.
