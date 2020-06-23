@@ -1,4 +1,10 @@
 
+
+[![DOI](https://zenodo.org/badge/253116619.svg)](https://zenodo.org/badge/latestdoi/253116619)
+
+
+---
+
 [English](#hiv-tropism)
 
 [Português](#tropismo-do-hiv)
