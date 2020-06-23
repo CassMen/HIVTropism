@@ -19,14 +19,14 @@ install.packages("caret")
 Observation: R may require you to install additional packages, such as the ones needed for the machine learning models.
 
 # Tutorial
-- Fill in template.csv with results fom genotypic tests.
-- Choose desired stacking model and download the corresponding file:
+- Fill in template.csv with results from genotypic tests.
+- Choose the desired stacking model and download the corresponding file:
   * SIMCA: mSIMCA.rds
   * k-Nearest Neighbors: mKnn.rds
   * Rotation Forest: mRotationForest.rds
   * CART: mCART.rds
   * Multi-Layer Perceptron: mMultiPerceptron.rds
-- Run script below.
+- Run the script below.
 
 ```r
 library(caret)
