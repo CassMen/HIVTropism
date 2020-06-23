@@ -10,6 +10,8 @@
 Predicts HIV-1 subtype C tropism using ensemble learning with genotypic algorithms.
 Made using R version 3.6.0.
 
+Original data used to generate models is in /originalData
+
 # Required packages 
 ```r
 install.packages("caret")
@@ -45,6 +47,8 @@ pred <- predict(HIV_ML, newdata = data)
 # Tropismo do HIV
 Prevê o tropismo do HIV-1 subtipo C com stacking de testes genotípicos.
 Feito com R, versão 3.6.0.
+
+Dados originais usados para gerar os modelos em /originalData
 
 # Pacotes necessários
 ```r
