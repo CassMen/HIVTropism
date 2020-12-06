@@ -41,7 +41,7 @@ library(caret)
 HIV_ML <- readRDS("model.rds")
 
 # Data should be like template file. Fill in the path to .CSV file.
-data <- read.table("template.csv", header = TRUE, sep = ";", na.strings = "NA", dec = ".", strip.white = TRUE)
+data <- read.table("template.csv", header = TRUE, sep = ",", na.strings = "NA", dec = ".", strip.white = TRUE)
 
 # Predictions are on vector 'pred'.
 pred <- predict(HIV_ML, newdata = data)
@@ -78,7 +78,7 @@ library(caret)
 HIV_ML <- readRDS("models.rds")
 
 # Dados devem estar como no arquivo template. Preencha o caminho para o arquivo .CSV.
-data <- read.table("template.csv", header = TRUE, sep = ";", na.strings = "NA", dec = ".", strip.white = TRUE)
+data <- read.table("template.csv", header = TRUE, sep = ",", na.strings = "NA", dec = ".", strip.white = TRUE)
 
 # Predições estão no vetor 'pred'.
 pred <- predict(HIV_ML, newdata = data)
