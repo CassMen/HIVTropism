@@ -25,13 +25,12 @@ install.packages("caret")
 Observation: R may require you to install additional packages, such as the ones needed for the machine learning models.
 
 # Tutorial
-- Fill in template.csv with results from genotypic tests.
+- Fill in template.csv with results from genotypic algorithms.
 - Choose the desired stacking model and download the corresponding file:
-  * SIMCA: mSIMCA.rds
-  * k-Nearest Neighbors: mKnn.rds
-  * Rotation Forest: mRotationForest.rds
-  * CART: mCART.rds
-  * Multi-Layer Perceptron: mMultiPerceptron.rds
+  * CART: rpart1SE.rds
+  * Rotation Forest: rotationForest.rds
+  * Naive Bayes: naive_bayes.rds
+  * Support Vector Machine: svmRadialCost.rds
 - Run the script below.
 
 ```r
@@ -51,7 +50,7 @@ pred <- predict(HIV_ML, newdata = data)
 ---
 
 # Tropismo do HIV
-Prevê o tropismo do HIV-1 subtipo C com stacking de testes genotípicos.
+Prevê o tropismo do HIV-1 subtipo C com stacking de algoritmos genotípicos.
 Feito com R, versão 3.6.0.
 
 Dados originais usados para gerar os modelos em /originalData
@@ -65,11 +64,10 @@ Observação: Pode ser necessário instalar pacotes adicionais para os modelos d
 # Tutorial
 - Preencha template.csv com os resultados dos testes genotípicos.
 - Escolha o modelo de stacking desejado e faça download do arquivo correspondente:
-  * SIMCA: mSIMCA.rds
-  * k-Nearest Neighbors: mKnn.rds
-  * Rotation Forest: mRotationForest.rds
-  * CART: mCART.rds
-  * Multi-Layer Perceptron: mMultiPerceptron.rds
+  * CART: rpart1SE.rds
+  * Rotation Forest: rotationForest.rds
+  * Naive Bayes: naive_bayes.rds
+  * Support Vector Machine: svmRadialCost.rds
 - Rode o script abaixo.
 
 ```r
